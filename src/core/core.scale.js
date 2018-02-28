@@ -721,7 +721,7 @@ module.exports = function(Chart) {
 			}, []);
 
 			var labelOffsets = [];
-			for (i = 0; i < displayedTicks.length; i++) {
+			for (var i = 0; i < displayedTicks.length; i++) {
 				if (me.ticks.length > (displayedTicks[displayedTicks.length - 1].index + 1)) {
 					var rightTickIndex;
 					if (displayedTicks[i + 1]) {
