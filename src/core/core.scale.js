@@ -806,7 +806,7 @@ module.exports = function(Chart) {
 						if (index === 0) {
 							centeringOffset += 7;
 						}
-						if (labelOffsets[labelOffsets.length - 1] (index === labelOffsets[labelOffsets.length - 1].index)) {
+						if (labelOffsets[labelOffsets.length - 1] && (index === labelOffsets[labelOffsets.length - 1].index)) {
 							centeringOffset -= 7;
 						}
 					}
