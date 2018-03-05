@@ -368,7 +368,11 @@ module.exports = function(Chart) {
 				}
 			}
 
-			me.labelRotation = labelRotation;
+			if (tickOpts.NoRotate) {
+				me.labelRotation = 0;
+			} else {
+				me.labelRotation = labelRotation;
+			}
 		},
 		afterCalculateTickRotation: function() {
 			helpers.callback(this.options.afterCalculateTickRotation, [this]);
