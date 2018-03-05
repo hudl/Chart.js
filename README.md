@@ -45,7 +45,7 @@ const callback = value => {
 * Center the remaining labels  
 Add `centerLabels: true` to `scales.xAxes.ticks` within your `options` object.
 
-### Disable x-Axis tick rotation
+### Disable x-Axes tick rotation
 
 ```javascript
 scales.xAxes.ticks.noRotate: true,
