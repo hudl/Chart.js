@@ -45,6 +45,12 @@ const callback = value => {
 * Center the remaining labels  
 Add `centerLabels: true` to `scales.xAxes.ticks` within your `options` object.
 
+### Disable x-Axes tick rotation
+
+```javascript
+scales.xAxes.ticks.noRotate: true,
+```
+
 ## Making changes
 *Warning*: Changes to this repo must be made using ES5 syntax. `node_modules` is not run through babel before being built.  
 
