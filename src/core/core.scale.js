@@ -368,7 +368,7 @@ module.exports = function(Chart) {
 				}
 			}
 
-			if (tickOpts.NoRotate) {
+			if (tickOpts.noRotate) {
 				me.labelRotation = 0;
 			} else {
 				me.labelRotation = labelRotation;
